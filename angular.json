@@ -64,10 +64,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "hello-world:build:production"
+              "browserTarget": "hello-world:build:production",
+              "proxyConfig": "./proxy.conf.json"
+              
             },
             "development": {
-              "browserTarget": "hello-world:build:development"
+              "browserTarget": "hello-world:build:development",
+              "proxyConfig": "./proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
