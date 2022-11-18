@@ -9,7 +9,7 @@ export class RegisterService {
 
   constructor(private httpclient : HttpClient) { }
 
-  url = "http://localhost:8080/studentForm/saveForm";
+  url = "http://34.29.2.62/studentForm/saveForm";
   
   register(userInfo: UserInfo){
     console.log("userInfo from register " ,userInfo);
