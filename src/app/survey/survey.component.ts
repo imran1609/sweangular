@@ -33,7 +33,7 @@ export class SurveyComponent implements OnInit {
       checkBoxvalue(event : any){
         var eventValue = new String(event.target.value); 
         this.checkBox = this.checkBox.concat(eventValue.toString());
-        this.checkBox  = this.checkBox.concat(" , ");
+        this.checkBox  = this.checkBox.concat(", ");
      }
     }
      

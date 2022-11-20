@@ -1,14 +1,32 @@
-<nav>
-    <table>
-        <tr>
-            <td>
-            <a routerLink="/survey"> Survey </a>
-        </td>
-        <td>
-            <a routerLink="/users"> List Users </a>
-        </td>
+<html>
+
+<head>
+    
+    <style>
         
-        </tr>
-    </table>
-</nav>
+        a {
+            background-color: blue;
+            color: white;
+            padding: 1em 1.5em;
+            text-decoration: none;
+        }
+
+        h4 {
+            display: inline;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <br/><br/>
+        <h4><a routerLink="/survey">Survey</a> <a style="margin:100px;" routerLink="/users">List Users</a></h4>
+        <br/>
+    </nav>
+</body>
+
 <router-outlet></router-outlet>
+
+</html>
