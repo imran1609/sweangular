@@ -14,7 +14,7 @@ import { HttpHeaders } from '@angular/common/http';
 })
 export class ShowusersComponent implements OnInit {
 
-  fetchUserUrl = "http://localhost:8080/studentForm/listUser";
+  fetchUserUrl = "http://34.29.2.62/studentForm/listUser";
   users : UserInfo[] = [];
   headers= new HttpHeaders().set('Access-Control-Allow-Origin', '*');
 
